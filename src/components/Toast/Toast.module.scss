@@ -1,0 +1,24 @@
+.wrapper {
+  width: 320px;
+  height: 160px;
+
+  padding: 24px;
+
+  border-radius: 36px;
+  background-color: var(--white-color);
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.horizontal-line {
+    margin: 16px 0;
+}
+
+.message {
+    font-weight: 800;
+
+    text-align: center;
+}

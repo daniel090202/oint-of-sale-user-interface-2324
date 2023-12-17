@@ -1,0 +1,17 @@
+.wrapper {
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 40px 0;
+
+  font-size: 4rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+}

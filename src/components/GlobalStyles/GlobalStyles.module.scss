@@ -1,0 +1,75 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+:root {
+    --primary-color: #ffcc80;
+    --white-color: rgb(255, 255, 255);
+    --black-color: rgb(0, 0, 0);
+    --text-color: rgb(22, 24, 35);
+
+    --default-layout-width: 1150px;
+    --default-layout-header-height: 60px;
+    --default-layout-horizontal-spacer: 18px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    text-rendering: optimizeSpeed;
+    overflow: overlay;
+}
+
+// ---------- Customize Scroll Bar --------- //
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+    font-family: inherit;
+    background-color: transparent;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+// Prevent the input number arrows.
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+    -moz-appearance: textfield;
+}

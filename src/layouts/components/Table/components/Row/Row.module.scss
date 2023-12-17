@@ -1,0 +1,20 @@
+.row {
+  padding: 8px;
+
+  text-align: justify;
+
+  border-bottom: 1px solid var(--text-color);
+  border-left: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.row > td {
+  padding: 8px;
+}

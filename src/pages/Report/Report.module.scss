@@ -1,0 +1,23 @@
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-input {
+  width: 250px;
+  height: 44px;
+  padding: 12px;
+
+  outline: none;
+
+  background-color: rgba(22, 24, 25, 0.06);
+}
+

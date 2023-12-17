@@ -1,0 +1,42 @@
+.menu-item {
+  padding: 10px;
+
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--text-color);
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 4px;
+
+  &.active {
+    color: var(--primary-color);
+
+    .icon {
+      display: none;
+    }
+
+    .active-icon {
+      display: flex;
+    }
+  }
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+.icon,
+.active-icon {
+  display: flex;
+  align-items: center;
+}
+
+.active-icon {
+  display: none;
+}
